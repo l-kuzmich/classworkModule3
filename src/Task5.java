@@ -74,7 +74,7 @@ public class Task5 {
 
         if (day > 0 && day <= 31) {
             if (month > 0 && month <= 12) {
-                if (year > 1922) {
+                if (year > 1922 && year < 2023) {
                     {
                         System.out.println("Your birthdate is: " + day + "." + month + "." + year);
                         zodiak(day, month);
